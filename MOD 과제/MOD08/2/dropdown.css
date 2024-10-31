@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+.main{
+    display: flex;
+}
+
+a{
+    display: block;
+}
+
+.sub{
+    transition: .4s;
+}
+
+.dropbtn > ul > li > a{
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+.sub > li > a{
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+.dropbtn{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+.sub {
+    height: 0px;
+    overflow: hidden;
+}
+
+ul:hover ul{
+    height: 280px;
+}
+
+.main > li:hover a{
+    background-color: rgb(197, 197, 197);
+}
+
+.sub > li:hover a{
+    background-color: rgb(172, 172, 172);
+    transition: .2s;
+}

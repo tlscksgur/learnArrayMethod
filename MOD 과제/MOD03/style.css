@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 115px;
+    background-color: rgb(245, 244, 234);
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    right: 85px;
+    top: 25px;
+    width: 68px;
+    height: 68px;
+}
+
+.sch {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 750px;
+    margin-left: 15px;
+}
+
+.nav > nav {
+    position: relative;
+    font-size: 12px;
+    height: 14px;
+    top: 20px;
+    left: 140px;
+}
+
+.a, .b, .c {
+    border-right: 1px solid rgb(220, 220, 220);
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.nav2 > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    position: relative;
+    top: 50px;
+    left: 110px;
+    font-size: 13px
+}
+
+a {
+    color: rgb(149, 149, 149);
+}
+
+.nav2 ul > li > a {
+    color: rgb(130, 125, 121);
+    width: 20px;
+}
+
+.real__nav {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

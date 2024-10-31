@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+
+.all {
+    border: 4px solid black;
+    margin: 40px auto;
+    width: 850px;
+    height: 800px;
+    position: relative;
+}
+
+.lbox {
+    background-color: #fff;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    width: 45%;
+    height: 20%;
+}
+.lbox1 {
+    background-color: #fff;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    width: 45%;
+    height: 48%;
+}
+.boxgreen {
+    position: absolute;
+    top: 68%;
+    background-color: green;
+    border-right: 1px solid black;
+    width: 45%;
+    height: 32%;
+}
+.boxred {
+    background-color: red;
+    position: absolute;
+    left: 45%;
+    bottom: 67%;
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    width: 15%;
+    height: 33%;
+}
+.boxyellow {
+    background-color: yellow;
+    position: absolute;
+    left: 45%;
+    bottom: 32%;
+    border: 1px solid black;
+    border-left: none;
+    border-top: none;
+    width: 15%;
+    height: 35%;
+}
+.boxblue {
+    position: absolute;
+    background-color: blue;
+    left: 60%;
+    bottom: 47%;
+    border: 2px solid black;
+    border-left: none;
+    width: 40%;
+    height: 53%;
+}
+.rboxno{
+    position: absolute;
+    left: 60%;
+    top: 53%;
+    border: 1px solid black;
+    border-left: none;
+    border-top: none;
+    width: 40%;
+    height: 15%;
+}
+.box1{
+    position: absolute;
+    left: 45%;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    width: 37%;
+    height: 32.4%;       
+}
+.boxorenge{
+    position: absolute;
+    left: 81.9%;
+    top: 68%;
+    background-color: orange;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    width: 18.3%;
+    height: 32%;
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+
+a {
+    display: block;
+    transition: .4s;
+}
+
+.Drop {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.Drop > ul > li > a {
+    background-color: lightgray;
+    width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+.sub > li{
+    background-color: lightgray;
+    width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.sub {
+    overflow: hidden;
+    height: 0;
+    transition: .4s;
+}
+
+.main > li:hover ul{
+    height: 280px;
+}
+
+.Drop > ul > li:hover a{
+    background-color: rgb(189, 189, 189);
+}
+
+.Drop > ul > li > ul > li:hover a{
+    background-color: gray;
+}

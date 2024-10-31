@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+header > img {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    width: 120px;
+    height: 140px;
+}
+
+/* ----------------dropdown------------------ */
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 47%;
+    z-index: 50;
+}
+
+.main {
+    display: flex;
+}
+
+.main > ul {
+    overflow: hidden;
+    height: 40px;
+    transition: .4s;
+}
+
+.main > ul:hover {
+    height: 250px;
+}
+
+.main > ul > li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 140px;
+    height: 40px;
+    color: black;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.main > ul > li:hover > a{
+    background-color: rgba(129, 72, 235, 0.747);
+}
+
+.main > ul > li > ul > li > a:hover {
+    background-color: rgba(129, 72, 235, 0.747);
+}
+
+/* ----------slide--------- */
+
+section {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+}
+
+section > img {
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    transition: 10s;
+}
+
+/* -----------banner---------- */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+    margin-left: 19%;
+    font-size: 14px;
+}
+
+.movebtn {
+    position: relative;
+    top: 10px;
+    left: 401px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+
+.lbtn {
+    width: 75px;
+    height: 30px;
+    border: 1px solid;
+    border-right: none;
+    border-bottom: none;
+}
+
+.rbtn {
+    width: 75px;
+    height: 30px;
+    border: 1px solid;
+    border-bottom: none;
+}
+
+.banner p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner-gallery {
+    display: flex;
+}
+
+.banner_in_gallery {
+    display: flex;
+    width: 410px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.banner_in_gallery img{
+    width: 80px;
+    height: 90px;
+}
+
+.banner1 {
+    width: auto;
+    height: 160px;
+    border: 1px solid;
+}
+
+.banner2 > p {
+    margin-bottom: 10px;
+}
+
+.banner3 > p {
+    margin-bottom: 10px;
+}
+
+.banner2 img {
+    box-shadow: 1px 1px 10px 0px gray;
+    margin-bottom: 15px;
+}
+
+.banner3 img {
+    box-shadow: 1px 1px 10px 0px gray;
+    margin-bottom: 15px;
+}
+
+.banner3 {
+    position: relative;
+}
+
+.ban3in > ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 48px;
+    color: #fff;
+}
+
+.ban3in {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.568);
+    transition: .3s;
+}
+
+.ban3in > ul > li:hover {
+    font-weight: bold;
+}
+
+.ban3in:hover {
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.banner1 > ul > li:nth-child(2){
+    background-color: lightgray;
+}
+.banner1 > ul > li:nth-child(4){
+    background-color: lightgray;
+}
+
+/* --------footer------ */
+
+.footer a{
+    display: block;
+}
+
+.footer_main {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.footer_logo img {
+    position: absolute;
+    left: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+.footer_text ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    margin-left: 150px;
+    line-height: 50px;
+}
+
+.copyright {
+    margin-left: 175px;
+    font-size: 13px;
+}
+
+/* ------------pop------------ */
+
+.pop {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.774);
+    z-index: 100;
+}
+
+.pop > .layer {
+    width: 435px;
+    height: 200px;
+    background-color: #fff;
+    margin: 15% auto;
+}
+
+.layer > h3 {
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+}
+
+.layer > p {
+    width: 380px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.close a {
+    float: right;
+    padding-right: 20px;
+    line-height: 70px;
+    
+}

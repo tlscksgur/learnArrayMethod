@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: "맑은 고딕";
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.slides > li > img {
+    width: 1000px;
+    height: 400px;
+}
+
+.slideAll {
+    height: 400px;
+    margin-left: 15%;
+    z-index: -1;
+}
+
+.slides > li {
+    width: 1500px;
+    position: absolute;
+    transition: 1s;
+}
+
+.slide:nth-child(1) {
+    z-index: 2;
+}
+.slide:nth-child(2) {
+    z-index: 1;
+}
+.slide:nth-child(3) {
+    z-index: -1;
+}

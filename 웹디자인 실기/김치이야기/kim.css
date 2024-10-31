@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+        /* 로고 */
+header {
+    position: relative;
+    background-color: rgb(212, 2, 2);
+    width: 200px;
+    height: 953px;
+}
+.header-img {
+    width: 200px;
+    padding: 10px;
+}
+
+
+        /* 드롭다운 */
+
+.sub  a {
+    display: block;
+}
+
+.Drop > ul > li > ul > a {
+    height: 50px;
+    line-height: 50px;
+}
+
+.Drop > ul > li {
+    color: white;
+    background-color: rgb(112, 28, 28);
+    text-align: center;
+    width: 180px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+.sub > li > a{
+    color: white;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    line-height: 50px;
+}
+
+
+.sub > li{
+    transition: .4s;
+    overflow: hidden;
+    height: 0;
+}
+
+.sub:hover {
+    background-color: rgb(161, 32, 32);
+}
+
+.sub > a:hover {
+    background-color: rgb(161, 32, 32);
+}
+
+.sub > li:hover {
+    background-color: red;
+}
+
+.sub:hover > li{
+    height: 55px;
+}
+
+h5{
+    margin-left: 47px;
+    margin-top: 20px;
+    color: white;
+}
+
+        /* footer  */
+footer > .foo > img {
+    position: absolute;
+    bottom: 3px;
+    left: 30px;
+    width: 120px;
+    height: 115px;
+    background-color: rgb(49, 49, 49);
+}
+
+.foo {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    height: 120px;
+}
+
+.ft {
+    color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.ftt {
+    color: white;
+    margin-left: 190px;
+    margin-top: 1%;
+}
+
+        /* section */
+
+.smain {
+    width: 400px;
+}
+
+.sbox {
+    width: 400px;
+}
+
+.sbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+    border-radius: 20px;
+    width: 360px;
+    height: 100px;
+    background-color: rgb(215, 50, 45);
+}
+
+.sbox > img {
+    width: 100px;
+    border-radius: 20px 0 0 20px;
+}
+
+.sbox > a > img {
+    position: relative;
+    top: 15px;
+    right: 2px;
+}
+
+.text > h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.text > h6 {
+    color: white;
+    margin-top: 20px;
+}
+
+                /* 공지사항 */
+                
+
+.gong {
+    position: absolute;
+    left: 217px;
+    top: 143px;
+    width: 130px;
+    height: 47px;
+    background-color: rgb(215, 50, 45);
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gon {
+    position: absolute;
+    top: 190px;
+    margin-left: 17px;
+    width: 370px;
+    height: 2px;
+    border: 2px solid rgb(215, 50, 45);
+}
+
+.notifi {
+    margin: 8px;
+    margin-top: 63px;
+    padding: 10px;
+}
+
+.notifi > ul > li {
+    border-bottom: 1px solid black;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.notifi > ul > li > a {
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+.notifi > ul > li > p {
+    color: gray;
+}
+
+
+            /* 갤러리 */
+
+            
+.gall {
+    position: absolute;
+    left: 217px;
+    top: 315px;
+    width: 130px;
+    height: 47px;
+    background-color: rgb(215, 50, 45);
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.glaa {
+    position: absolute;
+    top: 362px;
+    margin-left: 17px;
+    width: 370px;
+    height: 2px;
+    border: 2px solid rgb(215, 50, 45);
+}
+            
+.img_group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec_img > .img_group > a > img {
+    margin-top: 65px;
+    width: 135px;
+    height: 180px;
+}
+
+.img_group > a {
+    text-align: center;
+}
+
+
+
+            /* 바로가기 */
+
+.basec {
+    position: absolute;
+    left: 217px;
+    bottom: 290px;
+    width: 130px;
+    height: 47px;
+    background-color: rgb(215, 50, 45);
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.baasec {
+    position: absolute;
+    bottom: 290px;
+    margin-left: 17px;
+    width: 370px;
+    height: 2px;
+    border: 2px solid rgb(215, 50, 45);
+}
+
+.ba_img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.ba_img > a > p {
+    text-align: center;
+}
+
+
+            /* slide section */
+
+.slide {
+    overflow: hidden;
+    width: 1400px;
+    height: 100vh;
+}
+
+.img-group {
+    display: flex;
+
+    animation: kimchi 10s infinite;
+    width: calc(2000px * 3);
+}
+
+.img-group img{
+    width: 1350px;
+    height: 833px;
+}
+
+
+@keyframes kimchi {
+    0%{transform: translateX(0)}
+    22%{transform: translateX(0)}
+    32%{transform: translateX(-22.5%)}
+    57%{transform: translateX(-22.5%)}
+    67%{transform: translateX(-45%)}
+    92%{transform: translateX(-45%)}
+    99.9999%{transform: translateX(-67.5%)}
+    100%{transform: translateX(0)}
+}
+
+
+        /* JS */
+dialog {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.466);
+    place-items: center;
+    z-index: 100;
+}
+
+dialog > div > button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: red;
+}
+
+dialog div > img {
+    width: 400px;
+    height: 700px;
+}

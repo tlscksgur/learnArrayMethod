@@ -1,0 +1,40 @@
+.search{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    border: 2px solid green;
+    border-radius: 40px;
+    justify-content: space-around;
+}
+
+input{
+    border: 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.glass{
+    cursor: pointer;
+}
+
+.search img{
+    margin-top: 5px;
+}
+.logo > img{
+    width: 40px;
+    height: 40px;
+}
+.glass > img{
+    width: 40px;
+    height: 40px;
+}
+.his div{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+
+}

@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    vertical-align: middle;
+}
+/* -----------초기화----------- */
+
+.container {
+    display: flex;
+}
+
+header {
+    width: 200px;
+    height: 891px;
+    background-color: orange;
+}
+
+
+.header_logo {
+    width: 200px;
+    height: 130px;
+    padding-top: 20px;
+}
+
+/* -------드롭다운------- */
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.maindrop > ul {
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    transition: .4s;
+}
+
+.maindrop > ul > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(235, 140, 33);
+}
+
+.maindrop > ul > li > ul > li > a:hover {
+    background-color: rgb(241, 200, 153);
+}
+
+.maindrop > ul > li > ul > li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(240, 158, 66);
+    transition: .3s;
+}
+
+.maindrop > ul:hover {
+    height: 250px;
+}
+
+
+/* ---------banner-------- */
+
+nav {
+    width: 400px;
+}
+
+.notice > ul > li > a { /* 이거 왜 안됌? */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 10px;
+}
+
+.notice {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.notice-btn {
+    position: absolute;
+    top: 9%;
+    left: 6.3%;
+    display: block;
+    width: 100px;
+}
+
+.notice-btn > b {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    background-color: orange;
+}
+
+.notice > ul {
+    width: 350px;
+}
+
+.notice > ul > li {
+    height: 40px;
+    text-align: start;
+    line-height: 45px;
+    border-bottom: 1px solid;
+}
+
+.notice > ul >li:nth-child(1){
+    border-top: 3px solid orange;
+}
+
+.gallery {
+    margin-left: 6%;
+}
+
+.gallery p {
+    text-align: center;
+    line-height: 25px;
+}
+
+.gallery > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    border-top: 3px solid orange;
+}
+
+.gallery img {
+    width: 150px;
+    height: 130px;
+}
+
+.gallery-btn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: orange;
+}
+
+article > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 200px;
+}
+
+article p {
+    text-align: center;
+    line-height: 60px;
+
+} 
+
+/* --------slide--------- */
+
+.slide_main {
+    overflow: hidden;
+    height: 891px;
+    width: 70%;
+}
+
+.slide-move {
+    animation: cksgur 10s infinite;
+}
+
+.slide_main img {
+    width: 110%;
+    height: 900px;
+}
+
+@keyframes cksgur {
+    0%{transform: translateY(0%);}
+    15%{transform: translateY(0%);}
+    25%{transform: translateY(-25%);}
+    50%{transform: translateY(-25%);}
+    60%{transform: translateY(-50%);}
+    85%{transform: translateY(-50%);}
+    95%{transform: translateY(-75%);}
+    99.9999%{transform: translateY(-75%);}
+    100%{transform: translateY(0%);}
+}
+
+/* ---------footer-------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    background-color: gray;
+}
+
+.footer_logo img {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footer_logo a {
+    display: inline-flex;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.footer_text p {
+    color: #fff;
+}
+
+.footer_family {
+    position: absolute;
+    right: 0;
+    bottom: 22%;
+    display: flex;
+    width: 300px;
+    height: 50px;
+}
+
+/* --------pop-------- */
+
+.layer {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(78, 77, 77, 0.781);
+    z-index: 100;
+}
+
+.layer > div {
+    width: 450px;
+    height: 500px;
+    margin: 10% auto;
+    background-color: #fff;
+}
+
+.layer h3 {
+    text-align: center;
+}
+
+.layer img {
+    margin-left: 15%;
+}
+
+.close {
+    margin-top: 86%;
+    padding-right: 10px;
+    float: right;
+}

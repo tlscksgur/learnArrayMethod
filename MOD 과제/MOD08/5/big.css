@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+.main{
+    display: flex;
+}
+
+a{
+    display: block;
+}
+
+.sub{
+    transition: .4s;
+}
+
+.dropbtn > ul > li > a{
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+.sub > li > a{
+    background-color:  rgb(197, 197, 197);
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.sub {
+    height: 0px;
+    overflow: hidden;
+}
+
+ul:hover ul{
+    height: 280px;
+}
+
+.main > li:hover a{
+    background-color: rgb(197, 197, 197);
+}
+
+
+.sub > li:hover a{
+    background-color: rgb(172, 172, 172);
+    transition: .2s;
+}
+
+.dropbtn {
+    width: 280px;
+    margin: 27%;
+    margin-left: 58%;
+}
+
+.bbb {
+    overflow: hidden;
+    width: 300px;
+    position: absolute;
+    top:  584px;
+    left: 0%;
+    background-color: rgb(197, 197, 197);
+    width: 58%;
+    height: 0px;
+}
+
+.dropbtn > ul > li:hover {
+    background-color: rgb(197, 197, 197);
+}
+
+.bbb {
+    transition: .4s;
+}
+
+.dropbtn > ul > li:hover ~ .bbb {
+    height: 280px;
+}

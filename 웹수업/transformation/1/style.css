@@ -1,0 +1,14 @@
+div {
+    /* width: 600px; */
+    height: 150px;
+    margin: 20% auto;
+    background-color: orange;
+    font-size: 32px;
+    line-height: 150px;
+    animation: cksgur 3s infinite alternate;
+}
+
+@keyframes cksgur {
+    0%{width: 400px; opacity: .5; transform: rotate(20deg) scale(.6);}
+    100%{width: 700px;}
+}

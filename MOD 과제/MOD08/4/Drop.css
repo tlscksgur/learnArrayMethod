@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    transition: 0.3s ease-in-out;
+    background-color: lightgray
+}
+
+.sub > ul > li > a {
+    background-color: rgb(165, 165, 165);
+    width: 200px;
+}
+
+.sub > ul > li > a:hover {
+    background-color: gray;
+}
+
+.main {
+    width: 200px;
+}
+
+.sub > ul > li  a {
+    line-height: 47px;
+    width: 200px;
+}
+
+
+.sub {
+    position: relative;
+}
+
+.sub > a:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.sub ul {
+    position: absolute;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    width: 0;
+    left:200px;
+}
+
+.sub:hover ul {
+    width: 200px;
+}
